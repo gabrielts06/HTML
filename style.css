@@ -1,0 +1,24 @@
+div {
+    width: 1600px;
+    height: 1000px;
+    background-color: #969cad;
+    background-image: url('https://www.primecontrol.com.br/wp-content/uploads/2020/04/primerobot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+}
+div  {
+    border:5px solid
+    rgb(0, 0, 0);
+    padding: 20px;
+    
+    
+    }
+
+
+div {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 22;
+    font-family: arial;
+}

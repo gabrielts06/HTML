@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+    
+</style>
+<body>
+    <form action="/pagina-processa-dados.php"method="post"> 
+        <div class="div-form">
+            <h1>Olá! Faça seu Cadastro:</h1>
+            <p><input type="text" name="srch" id="srch" list="datalist1" placeholder="Países da América do Sul">
+                <datalist id="datalist1">
+                   <option>Argentina</option>
+                   <option>Bolívia</option>
+                   <option>Brasil</option>
+                   <option>Chile</option>
+                   <option>Colômbia</option>
+                   <option>Equador</option>
+                   <option>Guiana</option>
+                   <option>Paraguai</option>
+                   <option>Peru</option>
+                   <option>Suriname</option>
+                   <option>Uruguai</option>
+                   <option>Venezuela</option>
+                </datalist></p>
+            <p>Qual carreira pretende seguir?
+                <input type="checkbox" name="carreira" id="Back" checked><label for="Back">Backend</label>
+                <input type="checkbox" name="carreira" id="Front" ><label for="Front">Frontend</label></p>
+            <p><label>Nome: </label><input type="text" placeholder="Escreva seu Nome" name="Nome" maxlength="20"></p>
+            <p><label>Data de Nascimento: </label><input type="date" id="dtnasc" value="2000-12-03"></p>
+            <p><label>E-mail: <input type="e-mail" id="e-mail"placeholder="Insira seu E-mail" ></label></p>
+            <p><label>Senha: </label><input type="password" id="senha"></p>
+            <p><label for="cor">Qual sua cor favorita?</label><input type="color" id="cor" value="#dfa00f"></p>
+            <p><label for="dthrprev">Data e Hora Previsto: </label><input type="datetime-local" id="dthrprev" value="2022-0"></label></p>
+            <p><input type="file"></p>
+            <p><label for="mesano">Escolha o mês/ano: </label><input type="month" id="mesano"></p>
+            <p><label for="idade">Insira sua Idade: </label><input type="number" id="idade" value="22"></p>
+            <p><label for="invisivel">Campo invisivel</label><input type="hidden" id="invisivel" value="123455667"></p>
+            <p>Palmeiras tem Mundial?</p>
+            <input type="radio" name="mundial" id="nao"><label for="nao">Não</label>
+            <input type="radio" name="mundial" id="nunca"><label for="nunca">Nunca nem viu</label>
+            <input type="radio" name="mundial" id="sim" disabled><label for="sim">Sim</label>
+            <p><label for="var">Vontade de ir embora: 0%</label><input type="range" value="50" id="var">100%</p>
+            <p><label for="gsearch">Pesquisa Google: </label>
+            <input type="search" id="gsearch" name="gsearch"></p>
+            <p><label for="tel">Número de Telefone: </label><input type="tel" id="tel"value="Ex:(11)01234-4567" ></p>
+            <p><label for="hora">Hora</label><input type="time" id="time" value="12:15"></p>
+            <p><input type="url" placeholder="Digite o endereço do seu site"></p>
+            <p><textarea>Deixe seu Feedback:  </textarea></p>
+            <p><input type="week"></p>
+            <p>
+                <select>
+                    <option disable selected>Selecione uma Opção</option>
+                    <option value="S">SIM</option>
+                    <option value="N">Não</option>
+                </select>
+            </p>
+            <p><input type="button" value="voltar">
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar"></p>
+       </div>    
+    </form>
+        
+</body>
+<footer>
+    
+</footer>
+</html>
